@@ -12,8 +12,38 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Author": {
+    "title": {
       "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "datePremiere": {
+      "type": "date"
+    },
+    "director": {
+      "type": "string"
+    },
+    "scenicDesign": {
+      "type": "string"
+    },
+    "costume": {
+      "type": "string"
+    },
+    "music": {
+      "type": "string"
+    },
+    "lighting": {
+      "type": "string"
+    },
+    "dramaturgy": {
+      "type": "string"
+    },
+    "runtime": {
+      "type": "integer"
     },
     "actors": {
       "type": "relation",

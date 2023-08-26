@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "singularName": "feature",
+    "pluralName": "features",
+    "displayName": "Feature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "play": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::play.play"
+    },
+    "feature_texts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::feature-text.feature-text"
+    }
+  }
+}
